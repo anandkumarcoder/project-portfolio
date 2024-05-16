@@ -6,17 +6,14 @@
   box-sizing: border-box;
 }
 
-/*   :root {
-    --primary-text-color: #183b56;
-    --secondary-text-color: #577592;
-    --accent-color: #2294ed;
-    --accent-color-dark: #1d69a3;
-    --padding-inline-section: 20px;
-  } */
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('/Assets/fonts/Hiragino\ Kaku\ Gothic\ Std\ W8.otf') format('opentype');
+  font-weight: bolder;
+  font-style: normal;
+}
 
-/* body {
-  background-color: #fbf2e5;
-} */
+
 
 nav {
   font-family: "SF Pro Display", sans-serif;
@@ -48,14 +45,28 @@ nav {
   font-weight: bold;
 }
 /* hero  section*/
-.heading{
-/* font-family: Hiragino Kaku Gothic Std; */
-font-family: "SF Pro Display", sans-serif;
 
-font-size: 83.96px;
+
+ .heading{
+
+font-family: "MyCustomFont", sans-serif;
+line-height: 7.5rem;
+
+/* font-size: 83.96px;
 font-weight: 800;
 line-height: 125.95px;
 letter-spacing: 0.02em;
-text-align: left;
+text-align: left; */
+
+} 
+
+/* font-family: Hiragino Kaku Gothic Std; */
+.text-box > h3 {
+  font-family: "SF Pro Display", sans-serif;
+}
+
+.text-box> p{
+  font-family: "SF Pro Display", sans-serif;
+  line-height: 28px;
 
 }
