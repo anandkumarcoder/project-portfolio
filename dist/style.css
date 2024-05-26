@@ -634,6 +634,14 @@ video {
   margin-top: 1rem;
 }
 
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
+.box-border {
+  box-sizing: border-box;
+}
+
 .flex {
   display: flex;
 }
@@ -694,6 +702,14 @@ video {
   border-radius: 9999px;
 }
 
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
 .bg-\[\#1F1E1E\] {
   --tw-bg-opacity: 1;
   background-color: rgb(31 30 30 / var(--tw-bg-opacity));
@@ -707,10 +723,6 @@ video {
 .bg-\[\#303030\] {
   --tw-bg-opacity: 1;
   background-color: rgb(48 48 48 / var(--tw-bg-opacity));
-}
-
-.bg-\[\] {
-  background-color: ;
 }
 
 .p-16 {
@@ -843,6 +855,31 @@ video {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
+.shadow-slate-500 {
+  --tw-shadow-color: #64748b;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-slate-500\/50 {
+  --tw-shadow-color: rgb(100 116 139 / 0.5);
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.hover\:box-content:hover {
+  box-sizing: content-box;
+}
+
+.hover\:shadow-lg:hover {
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.focus\:border-sky-500:focus {
+  --tw-border-opacity: 1;
+  border-color: rgb(14 165 233 / var(--tw-border-opacity));
+}
+
 @media (min-width: 640px) {
   .sm\:my-8 {
     margin-top: 2rem;
@@ -853,16 +890,12 @@ video {
     max-height: 366px;
   }
 
-  .sm\:max-h-\[625px\] {
-    max-height: 625px;
-  }
-
-  .sm\:max-h-\[3px\] {
-    max-height: 3px;
-  }
-
   .sm\:max-h-\[382px\] {
     max-height: 382px;
+  }
+
+  .sm\:max-h-\[625px\] {
+    max-height: 625px;
   }
 
   .sm\:w-60 {
@@ -875,6 +908,14 @@ video {
 
   .sm\:max-w-\[382px\] {
     max-width: 382px;
+  }
+
+  .sm\:max-w-\[3px\] {
+    max-width: 3px;
+  }
+
+  .sm\:max-w-\[360px\] {
+    max-width: 360px;
   }
 
   .sm\:flex-row {
@@ -903,19 +944,14 @@ video {
     padding: 4rem;
   }
 
-  .sm\:px-32 {
-    padding-left: 8rem;
-    padding-right: 8rem;
-  }
-
-  .sm\:px-6 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-
   .sm\:px-2 {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+  }
+
+  .sm\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
   }
 
   .sm\:pb-8 {
