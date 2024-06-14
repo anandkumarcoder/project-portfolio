@@ -34,10 +34,10 @@ nav {
   gap: 10px;
 }
 
-.logo-image {
-  padding: 5px;
-  width: 50px;
-}
+ /*.logo-image {
+   padding: 5px;
+  width: 50px; 
+} */
 
 .listItems {
   display: flex;
