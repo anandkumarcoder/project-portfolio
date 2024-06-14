@@ -13,6 +13,10 @@
 
     <link rel="stylesheet" href="/dist/style.css" />
     <link rel="stylesheet" href="/dist/style2.css" />
+
+    <link rel="icon" href= 
+"/Assets/images/Logo.png" 
+          type="image/x-icon"> 
   </head>
   <body class="bg-[#2E2C2C] h-full !scroll-smooth ">
     <header class="text-white">
@@ -28,9 +32,15 @@
         </div>
 
         <ul class="listItems lg:text-2xl">
-          <li>Work</li>
-          <li>About</li>
-          <li>Contact</li>
+          <a href="#work">
+            <li class="cursor-pointer">Work</li>
+          </a>
+          <a href="#about">
+            <li class="cursor-pointer">About</li>
+          </a>
+          <a href="#contact">
+            <li class="cursor-pointer">Contact</li>
+          </a>
         </ul>
       </nav>
     </header>
@@ -49,11 +59,11 @@
           <div class="px-4 py-4 flex flex-wrap  overflow-x-auto    flex-col sm:flex sm:flex-row sm:justify-between  sm-w-full">
 
 
-              <img src="./Assets/image-5.png" alt=""
-              class="sm:max-w-[22rem] md:max-w-[63%] lg:max-w-[74%]"
+              <img src="./Assets/image-5.png" alt="Sneha ghildiyal"
+              class="max-w-[280px] pl-6 pr-8 sm:max-w-[22rem] md:max-w-[63%] lg:max-w-[74%]"
                 >
 
-            <div class="imageBox">
+            <div class="imageBox hidden sm:block">
               <img
                 src="./Assets/images/Inhale.png"
                 class="w-[14rem] pt-6 mx-auto sm:w-max-[15rem]  lg:pt-8 "
@@ -70,7 +80,7 @@
 
           <!-- second box starts here -->
         
-          <div class="textbox hidden mt-20 sm:flex sm:flex-col  sm:justify-center sm:items-center flex-wrap sm:ml-28  ">
+          <div class="textbox  mt-20 sm:flex sm:flex-col  sm:justify-center sm:items-center flex-wrap sm:ml-28  ">
        
              
                 
@@ -99,7 +109,7 @@
           <!-- second box ends here -->
 
           <!-- project image big -->
-          <div class="project-image-box py-8 mt-16">
+          <div class="project-image-box  hidden sm:block py-8 mt-16">
 
             <img src="/Assets/image-7.png" 
             class="w-full h-4/5 "
@@ -117,7 +127,7 @@
 
       <!-- work section   starts here -->
 
-      <section class="Work bg-[#272727] pb-6 md:pb-24 mb-16">
+      <section  id="work" class="Work bg-[#272727] pb-6 md:pb-24 mb-16">
         <div class="work-Section mx-auto ">
           <div class="heading text-center my-8">
             <h2 class="text-[#FBF2E5] font-extrabold p-8 text-4xl sm:text-6xl sm:p-16">Work</h2>
@@ -247,7 +257,7 @@
 
 
       <!-- about me section starts here -->
-      <section class="about-me pb-8 md:pb-16 sm:px-6">
+      <section id="about" class="about-me pb-8 md:pb-16 sm:px-6">
         <div class="about-me-section mx-auto ">
           <div class="heading text-center sm:my-8 my-4">
             <h2 class="text-[#FBF2E5] font-extrabold text-4xl sm:text-6xl p-16">About me</h2>
@@ -304,7 +314,7 @@
       <!-- about me section ends here -->
 
       <!-- contact section starts here -->
-      <section class="contact-me-section  pb-8  md:pb-24">
+      <section id="contact" class="contact-me-section  pb-8  md:pb-24">
   <div class="contact-me-container flex flex-col  items-center mx-auto px-4   mb-32">
     <h2 class="text-[#FBF2E5] font-extrabold text-6xl mt-16">Let's Talk </h2>
 
