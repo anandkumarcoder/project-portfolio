@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en" class="scroll-smooth" id="home">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,17 +18,25 @@
   </head>
 
   <body class="bg-[#2E2C2C] h-full scroll-smooth">
-    <header class="text-white mb-4 sm:px-4 sm:mb-8">
+    <header
+      class="bg-[#2E2C2C] text-white mb-4 sm:px-4 fixed top-0 w-full z-10"
+    >
       <nav
-        class="navBar flex items-center justify-between px-2 py-2 sm:px-8 sm:py-8"
+        class="navBar flex items-center justify-between px-2 py-2 sm:px-8 sm:pt-4"
       >
-        <div class="logo flex items-center">
-          <img src="./Assets/images/Logo.png" alt="Logo" class="w-8 sm:w-16" />
-          <h2 class="ml-2 text-sm sm:text-2xl">
-            SNEHA <br />
-            GHILDIYAL
-          </h2>
-        </div>
+        <a href="#home">
+          <div class="logo flex items-center cursor-pointer">
+            <img
+              src="./Assets/images/Logo.png"
+              alt="Logo"
+              class="w-8 sm:w-16"
+            />
+            <h2 class="ml-2 text-sm sm:text-2xl">
+              SNEHA <br />
+              GHILDIYAL
+            </h2>
+          </div>
+        </a>
         <ul class="listItems flex text-sm sm:text-2xl sm:gap-x-4 font-semibold">
           <a href="#work" class="scroll-smooth duration-500">
             <li class="cursor-pointer mr-4">Work</li>
@@ -43,7 +51,7 @@
       </nav>
     </header>
 
-    <main class="bg-[#1F1E1E] sm:mx-auto sm:max-w-[1078px] h-full">
+    <main class="bg-[#1F1E1E] sm:mx-auto sm:max-w-[1078px] h-full mt-32">
       <section class="px-4 pb-8 md:pb-24 place-content-center max-h-full">
         <div class="hero">
           <div
@@ -52,7 +60,7 @@
             <img
               src="./Assets/image-5.png"
               alt="Sneha ghildiyal"
-              class="max-w-[auto] pt-4 text-left pr-8 sm:pl-8 sm:max-w-[24rem] md:max-w-[63%] lg:max-w-[74%]"
+              class="max-w-[auto] max-sm:pt-4 text-left pr-8 sm:pl-8 sm:max-w-[24rem] md:max-w-[63%] lg:max-w-[74%]"
             />
             <div class="imageBox hidden sm:block">
               <img
@@ -63,13 +71,10 @@
               />
             </div>
           </div>
-          <div
-            class="px-4 py-4 flex flex-wrap overflow-x-auto sm:flex sm:flex-row sm:justify-between sm-w-full"
-          ></div>
         </div>
 
         <div
-          class="textbox mt-8 flex flex-wrap sm:flex sm:flex-col sm:justify-center sm:items-center sm:ml-28"
+          class="textbox mt-8 flex sm:py-10 flex-wrap sm:flex sm:flex-col sm:justify-center sm:items-center sm:ml-28"
         >
           <div
             class="text-title text-[#C1A165] text-xl font-semibold sm:pb-4 pb-2 sm:text-3xl justify-between md:text-4xl flex items-center flex-wrap"
@@ -103,7 +108,7 @@
         </div>
       </section>
 
-      <section id="work" class="bg-[#272727] pb-6 md:pb-24 sm:mb-16">
+      <section id="work" class="bg-[#272727] pb-6 md:pb-24 sm:mb-16 max-h-full">
         <!-- Work section content -->
         <div class="work-Section mx-auto">
           <div class="heading text-center my-8">
@@ -115,7 +120,7 @@
           </div>
 
           <div
-            class="card-container flex flex-wrap place-content-center gap-x-5 sm:gap-x-8 sm:gap-y-3"
+            class="card-container flex flex-wrap place-content-center gap-x-5 sm:gap-x-8 sm:gap-y-3 overflow-hidden"
           >
             <!-- card one -->
             <div
@@ -140,15 +145,10 @@
                     engaging & fun format.
                   </p>
                 </div>
-                <a
-                  href="https://forms.gle/UbAipev9L2nXcy2BA"
-                  target="_blank"
-                  class="cursor-pointer bottom-0"
-                >
-                  <i
-                    class="fa-solid fa-arrow-right fa-xl py-4 sm:py-6 text-[16px] text-white text-left sm:text-[30px] transition duration-300 hover:scale-125"
-                  ></i>
-                </a>
+
+                <i
+                  class="fa-solid fa-arrow-right fa-xl py-4 sm:py-6 text-[16px] text-white text-left sm:text-[30px] transition duration-300 hover:scale-125 cursor-pointer"
+                ></i>
               </a>
             </div>
 
@@ -157,7 +157,7 @@
               class="relative bg-[#1F1E1E] card-one flex flex-col max-w-[175px] max-h-[auto] sm:max-w-[382px] sm:max-h-[625px] px-1 sm:px-2 cursor-pointer transition duration-500 hover:scale-110 mb-4 sm:mb-8"
             >
               <a
-                href="https://drive.google.com/file/d/1aB5Fl2WFvfMY8Pw1v_e_tR-04nlSHKtn/view?usp=drive_link"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSexaFGEzlikootKcY9Zaut9nFVuRz_TSOnkCjV0uchVTDxDzQ/viewform?usp=sf_link"
                 target="_blank"
               >
                 <img
@@ -178,14 +178,10 @@
                     onboarding experience.
                   </p>
                 </div>
-                <a
-                  href="https://drive.google.com/file/d/1aB5Fl2WFvfMY8Pw1v_e_tR-04nlSHKtn/view?usp=drive_link"
-                  target="_blank"
-                  class="cursor-pointer bottom-0"
-                  ><i
-                    class="fa-solid fa-arrow-right fa-xl py-4 sm:py-6 text-[16px] text-white text-left sm:text-[30px] transition duration-300 hover:scale-125"
-                  ></i
-                ></a>
+
+                <i
+                  class="fa-solid fa-arrow-right fa-xl py-4 sm:py-6 text-[16px] text-white text-left sm:text-[30px] transition duration-300 hover:scale-125 cursor-pointer"
+                ></i>
               </a>
             </div>
 
@@ -194,7 +190,7 @@
               class="relative bg-[#1F1E1E] card-one flex flex-col max-w-[175px] max-h-[auto] sm:max-w-[382px] sm:max-h-[625px] px-1 sm:px-2 cursor-pointer transition duration-500 hover:scale-110 mb-4 sm:mb-8"
             >
               <a
-                href="https://drive.google.com/file/d/1QD5Ceb4uYHMxz_L0FTm7iR_otciz23Qy/view?usp=drive_link"
+                href="https://docs.google.com/forms/d/e/1FAIpQLScPI1p-Xc3Am9-jlXfnMYccuKrR11bCVuPtBuAg7vsMi3SLIA/viewform?usp=sf_link"
                 target="_blank"
               >
                 <img
@@ -215,14 +211,9 @@
                     final application.
                   </p>
                 </div>
-                <a
-                  href="https://drive.google.com/file/d/1QD5Ceb4uYHMxz_L0FTm7iR_otciz23Qy/view?usp=drive_link"
-                  target="_blank"
-                  class="cursor-pointer"
-                  ><i
-                    class="fa-solid fa-arrow-right fa-xl py-4 sm:py-6 text-[16px] text-white text-left sm:text-[30px] transition duration-300 hover:scale-125"
-                  ></i
-                ></a>
+                <i
+                  class="fa-solid fa-arrow-right fa-xl py-4 sm:py-6 text-[16px] text-white text-left sm:text-[30px] transition duration-300 hover:scale-125 cursor-pointer"
+                ></i>
               </a>
             </div>
 
@@ -231,7 +222,7 @@
               class="relative bg-[#1F1E1E] card-one flex flex-col max-w-[175px] max-h-[auto] sm:max-w-[382px] sm:max-h-[625px] px-1 sm:px-2 cursor-pointer transition duration-500 hover:scale-110 mb-4 sm:mb-8"
             >
               <a
-                href="https://drive.google.com/file/d/1mNHLyHdmUDJOJGF3bC5FReS2u3e9_GLu/view?usp=drive_link"
+                href="https://docs.google.com/forms/d/e/1FAIpQLScNMrrO6k6tf7dIS_Ih_qHmoymLIYxg5-AO9GPgMPyl-iNE3w/viewform?usp=sf_link"
                 target="_blank"
               >
                 <img
@@ -252,14 +243,9 @@
                     hierarchy & user-focus.
                   </p>
                 </div>
-                <a
-                  href="https://drive.google.com/file/d/1mNHLyHdmUDJOJGF3bC5FReS2u3e9_GLu/view?usp=drive_link"
-                  target="_blank"
-                  class="cursor-pointer bottom-0"
-                  ><i
-                    class="fa-solid fa-arrow-right fa-xl py-4 sm:py-6 text-[16px] text-white text-left sm:text-[30px] transition duration-300 hover:scale-125"
-                  ></i
-                ></a>
+                <i
+                  class="fa-solid fa-arrow-right fa-xl py-4 sm:py-6 text-[16px] text-white text-left sm:text-[30px] transition duration-300 hover:scale-125 cursor-pointer"
+                ></i>
               </a>
             </div>
 
@@ -268,7 +254,7 @@
               class="relative bg-[#1F1E1E] card-five flex flex-col max-w-[175px] max-h-[auto] sm:max-w-[382px] sm:max-h-[625px] sm:px-2 px-1 transition duration-500 hover:scale-110 cursor-pointer mb-4 sm:mb-8 rounded-lg"
             >
               <a
-                href="https://drive.google.com/file/d/1iSUuHt7NrsJH1SVVMXk3vRubNIjfnn7T/view?usp=drive_link"
+                href="https://docs.google.com/forms/d/e/1FAIpQLScOQHHtkVkfghUq8KrqVQOA1qlXiTi1vodtxA5cpMRUSqP3rw/viewform?usp=sharing"
                 target="_blank"
                 class="cursor-pointer"
               >
@@ -290,14 +276,9 @@
                     analysis.
                   </p>
                 </div>
-                <a
-                  href="https://drive.google.com/file/d/1iSUuHt7NrsJH1SVVMXk3vRubNIjfnn7T/view?usp=drive_link"
-                  target="_blank"
-                  class="cursor-pointer absolute bottom-0"
-                  ><i
-                    class="fa-solid fa-arrow-right fa-xl py-4 sm:py-6 text-[16px] text-white text-left sm:text-[30px] transition duration-500 hover:scale-125"
-                  ></i
-                ></a>
+                <i
+                  class="fa-solid fa-arrow-right fa-xl py-4 sm:py-6 text-[16px] text-white text-left sm:text-[30px] transition duration-500 hover:scale-125 cursor-pointer"
+                ></i>
               </a>
             </div>
 
@@ -324,14 +305,9 @@
                     experiences and motivational themes.
                   </p>
                 </div>
-                <a
-                  href="#"
-                  target="_blank"
-                  class="cursor-pointer relative bottom-0"
-                  ><i
-                    class="fa-solid fa-arrow-right fa-xl py-4 sm:py-6 text-[16px] text-white text-left sm:text-[30px] transition duration-500 hover:scale-125"
-                  ></i
-                ></a>
+                <i
+                  class="fa-solid fa-arrow-right fa-xl py-4 sm:py-6 text-[16px] text-white text-left sm:text-[30px] transition duration-500 hover:scale-125 cursor-pointer"
+                ></i>
               </a>
             </div>
           </div>

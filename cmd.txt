@@ -1,2 +1,15 @@
 npx tailwindcss -i ./src/input.css -o ./dist/style.css --watch 
 issues list
+
+
+Thanks for your response
+Here is your file -
+
+2nd card -> https://docs.google.com/forms/d/e/1FAIpQLSexaFGEzlikootKcY9Zaut9nFVuRz_TSOnkCjV0uchVTDxDzQ/viewform?usp=sf_link
+
+card - 3 https://docs.google.com/forms/d/e/1FAIpQLScPI1p-Xc3Am9-jlXfnMYccuKrR11bCVuPtBuAg7vsMi3SLIA/viewform?usp=sf_link
+
+
+card- 4 https://docs.google.com/forms/d/e/1FAIpQLScNMrrO6k6tf7dIS_Ih_qHmoymLIYxg5-AO9GPgMPyl-iNE3w/viewform?usp=sf_link
+
+card 5 https://docs.google.com/forms/d/e/1FAIpQLScOQHHtkVkfghUq8KrqVQOA1qlXiTi1vodtxA5cpMRUSqP3rw/viewform?usp=sf_link
